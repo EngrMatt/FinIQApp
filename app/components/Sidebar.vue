@@ -59,7 +59,7 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 10px 0;       /* 增加上下間距 */
+  padding: 5px 0;       /* 增加上下間距 */
   list-style: none;
 }
 
