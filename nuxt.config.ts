@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
   pwa: {
+    registerType: 'autoUpdate',
     manifest: {
       name: 'FinIQ',
       short_name: 'FinIQ',
@@ -25,6 +26,7 @@ export default defineNuxtConfig({
     },
     workbox: {
       navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
     },
     devOptions: {
       enabled: true,
