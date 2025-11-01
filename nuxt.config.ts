@@ -9,14 +9,15 @@ export default defineNuxtConfig({
       short_name: 'FinIQ',
       description: 'A personal finance dashboard',
       theme_color: '#ffffff',
+      display: 'standalone',
       icons: [
         {
-          src: 'assets/logo.png',
+          src: '/assets/logo.png',
           sizes: '192x192',
           type: 'image/png',
         },
         {
-          src: 'assets/logo.png',
+          src: '/assets/logo.png',
           sizes: '512x512',
           type: 'image/png',
         },
